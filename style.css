@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btnNo{
+    position: relative;
+    margin-left: 290px;
+}
+.one{
+    position: relative;
+    margin-left: 150px;
+}
+.two{
+    position: relative;
+    margin-left: 400px;
+}
+.three{
+    position: relative;
+    margin-top: 40px;
+}
+.four{
+    position: relative;
+    margin-bottom: 30px;
+}
+.off{
+    display: none;
+}
+
+
+@media (min-width: 300px) and ( max-width : 500px){
+    p{
+        font-size: 0.8rem;
+    }
+    .btnNo{
+        position: relative;
+        margin-left: 200px;
+    }
+    .one{
+        position: relative;
+        margin-left: 150px;
+    }
+    .two{
+        position: relative;
+        margin-left: 220px;
+    }
+    .three{
+        position: relative;
+        margin-top: 40px;
+    }
+    .four{
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    
+}
+@media (min-width: 501px) and ( max-width : 900px){
+    
+    .btnNo{
+        position: relative;
+        margin-left: 100px;
+    }
+    .one{
+        position: relative;
+        margin-left: 150px;
+    }
+    .two{
+        position: relative;
+        margin-left: 220px;
+    }
+    .three{
+        position: relative;
+        margin-top: 40px;
+    }
+    .four{
+        position: relative;
+        margin-bottom: 30px;
+    }
+    
+    
+}
